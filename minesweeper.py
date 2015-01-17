@@ -1,16 +1,20 @@
 """ 
     Minesweeper game
-    download it to scripts directory and import
-    from minesweeper import * works good, as I believe there are 
-    no name conflicts
+    Download it to scripts directory and import however you like.
+    I believe there are no name conflicts.
+    
+    ------IMPORTANT-------
+    you should put minesweeper.root.mainloop() (or root.mainloop())
+    as a last line in your script in order to 
     
     Controls from within your script:
-    click(v,h) for left click
-    m_click(v,h) for middle (wheel) click
-    r_click(v,h) for right click  
-    retart() to restart the game
-    pause() to pause the game
-    open_field returns the open field
+    
+    click(v,h)      -for left click
+    m_click(v,h)    -for middle (wheel) click
+    r_click(v,h)    -for right click  
+    retart()        -to restart the game
+    pause()         -to pause the game
+    open_field      -returns the open field
       
     Not able to press one cell, drag and release at other cell
     will still open the pressed cell.
